@@ -1,0 +1,14 @@
+#
+#
+L'idea base è :
+
+1- creare un algoritmo che fa web scraping sui principali siti di ricerca case:
+    A- immobiliare.it: https://www.immobiliare.it/vendita-case/rovigo/?criterio=rilevanza&prezzoMassimo=150000&stato=6&bagni=2&noAste=1&classeEnergetica=5
+    B- idealista.it: https://www.idealista.it/vendita-case/rovigo-rovigo/con-prezzo_150000,bagno-2,nuova-costruzione,buono-stato,aste_no/
+    C- casa.it: https://www.casa.it/srp/?tr=vendita&numBaths=2&energyClass=C&buildingYearMin=2000&priceMax=150000&exclude_auction=true&propertyTypeGroup=case&q=9e9d3223
+
+2- filtrare tutti i risultati che rientrano nei nostri parametri di ricerca
+
+3- scrivere i risultati in un file excel
+#
+#
